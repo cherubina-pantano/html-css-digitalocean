@@ -1,3 +1,58 @@
+/* GENERAL */
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/* UTILITIES */
+
+/* HEADER */
+.header-overall .navbar {
+  background-color: #fff;
+  margin-bottom: 0;
+  padding: 10px 0;
+  border-radius: 0;
+  border: none;
+  vertical-align: middle;
+}
+
+.header-overall .navbar li a {
+  color: #031c4e;
+}
+
+.header-overall .navbar-brand  img {
+  height: 100%;
+}
+
+.header-overall .navbar-btn {
+  margin: 0;
+  color: #2285fd;
+  border-color: #2285fd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background: #2485fd;
+}
+
+.header-overall .navbar-default .navbar-toggle {
+    border: none;
+}
+
+/* MEDIA HEADER */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Mostra hamburger */
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+    /* Nascondi contenitore menu */
+    .navbar-collapse {
+        display: none;
+    }
+}
+
+
+/* MAIN */
+
+/* FOOTER */
