@@ -72,7 +72,7 @@ a {
 }
 
 .header-overall .navbar li a {
-  color: #006aff;
+  color: #031c4e;
 }
 
 .header-overall .navbar-brand  img {
@@ -263,6 +263,7 @@ a {
 
 .main-designed .slide h5 {
   font-size: 12px;
+  margin-bottom: 5px;
 }
 
 .main-designed .sliders-icon i {
@@ -270,5 +271,19 @@ a {
   color: #006aff;
 }
 
+/* MAIN FEATURES */
+.main-features h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.main-features p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.main-features img{
+  margin-top: 20px;
+}
 
 /* FOOTER */
