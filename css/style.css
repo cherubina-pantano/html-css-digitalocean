@@ -286,4 +286,22 @@ a {
   margin-top: 20px;
 }
 
+/* MAIN SERVICE */
+.main-service {
+  background: linear-gradient(#0047c5, #00209b);
+}
+
+.main-service h2 {
+  color: #fff;
+}
+
+.main-service .six-regions {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-service .six-regions span {
+  color: #fff;
+}
+
 /* FOOTER */
