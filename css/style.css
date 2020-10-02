@@ -18,11 +18,12 @@ h5 {
 p {
   line-height: 20px;
   font-size: 14px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 a {
-  color: #031c4e;
+  color: #006aff;
 }
 
 .btn {
@@ -45,6 +46,14 @@ a {
 
 .box-grey {
   background-color: #f3f5f9;
+}
+
+.mg-top {
+  margin-top: 50px;
+}
+
+.padding-0 {
+  padding: 0;
 }
 
 /* HEADER */
@@ -100,10 +109,6 @@ a {
   background-size: cover;
 }
 
-/* .header-hero .jumbotron{
-  background-color: transparent;
-} */
-
 .header-hero h1,
 .header-hero p {
   color: #fff;
@@ -119,7 +124,6 @@ a {
 .header-hero  p {
   font-size: 21px;
   line-height: 26px;
-  font-weight: bold;
   color: #bbcdff;
 }
 
@@ -179,9 +183,9 @@ a {
   color: #7c879f;
 }
 
-.main-top .logo-list {
+/* .main-top .logo-list {
   padding: 0;
-}
+} */
 
 .main-top .logo-list li {
   width: calc((100% / 2) - 12px);
@@ -193,13 +197,44 @@ a {
   max-width: 100%;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 768px) {
   .main-top .logo-list li {
     width: calc((100% / 6) - 12px);
     margin: 0 auto;
     vertical-align: middle;
   }
-
 }
 
+/*  MAIN DEPLOY */
+.main-deploy  h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.main-deploy p {
+  line-height: 25px;
+  font-size: 16px;
+  color: #7c879f;
+}
+
+.main-deploy .vertical-menu li {
+  display: block;
+  padding: 8px 5px;
+  text-decoration: none;
+  text-align: left;
+  font-size: 16px;
+  border-left: 1px solid;
+  color: #75809a;
+}
+
+.main-deploy h3 {
+  font-size: 16px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-deploy .p-deploy p{
+  font-size: 16px;
+  font-weight: lighter;
+}
 /* FOOTER */
