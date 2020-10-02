@@ -4,6 +4,39 @@ body {
 }
 
 /* UTILITIES */
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #031c4e;
+}
+
+p {
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px 18px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background: #2485fd;
+}
+
+.btn-shadow {
+  border: 0;
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
+}
 
 /* HEADER */
 .header-overall .navbar {
@@ -54,5 +87,83 @@ body {
 
 
 /* MAIN */
+.header-hero {
+  background-image: url('../assets/bg-banner-home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .header-hero .jumbotron{
+  background-color: transparent;
+} */
+
+.header-hero h1,
+.header-hero p {
+  color: #fff;
+}
+
+.header-hero  h1 {
+  font-size: 36px;
+  padding: 20px 0;
+  line-height: 40px;
+  margin-top: 40px;
+}
+
+.header-hero  p {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #bbcdff;
+}
+
+/* ACCOUNT */
+.register-account {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.register-account h3 {
+  color: #006aff;
+}
+
+.register-account .form-group input {
+  width: 100%;
+}
+
+.register-account .form-group  .logo-g{
+  background-image: url('../assets/google-icon.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 5%;
+  padding-left: 5px;
+  color: #626262;
+}
+
+.register-account .form-horizontal p {
+  color: #031c4e;
+  font-size: 12px;
+}
+
+/* MEDIA HERO */
+@media screen and (min-width: 991px) {
+  .header-hero  h1 {
+    font-size: 54px;
+    margin-top: 55px;
+    line-height: 50px;
+  }
+
+  .header-hero  p {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .register-account {
+    margin-top: 40px;
+  }
+
+}
 
 /* FOOTER */
