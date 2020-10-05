@@ -8,7 +8,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;
@@ -59,6 +60,23 @@ a {
 
 .padding-0 {
   padding: 0;
+}
+
+/* SLIDER UTILITY */
+.slide i {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.sliders-icon i {
+  padding: 0 5px;
+  color: #006aff;
+}
+
+.slide i.fa-chevron-left {
+  color: #6f7b97;
 }
 
 /* HEADER */
@@ -243,17 +261,6 @@ a {
   padding: 30px;
 }
 
-.main-designed .slide i {
-  font-size: 24px;
-  font-weight: bold;
-  padding: 5px;
-  margin: 0 5px;
-}
-
-.main-designed .slide i.fa-chevron-left {
-  color: #6f7b97;
-}
-
 .main-designed .slide img {
   display: inline-block;
   height: 262px;
@@ -266,10 +273,6 @@ a {
   margin-bottom: 5px;
 }
 
-.main-designed .sliders-icon i {
-  padding: 0 5px;
-  color: #006aff;
-}
 
 /* MAIN FEATURES */
 .main-features h3 {
@@ -291,17 +294,78 @@ a {
   background: linear-gradient(#0047c5, #00209b);
 }
 
-.main-service h2 {
+.main-service h2,
+.main-service span {
   color: #fff;
 }
 
-.main-service .six-regions {
+.main-service p {
+  color: #bbc7e8;
+}
+
+.main-service .six-regions-left,
+.main-service .six-regions-right {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.main-service .six-regions span {
-  color: #fff;
+.main-service .row {
+  border-bottom: 1px solid #fff;
 }
+
+.six-regions-left .row:last-child,
+.six-regions-right .row:last-child {
+  border-bottom: transparent;
+}
+
+/* MAIN DEVELOPMENT */
+.rockerbox {
+  display: inline-block;
+  width: 510px;
+  height: 285px;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.rockerbox img {
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+.rockerbox p {
+  font-size: 16px;
+  margin-bottom: 0;
+  padding: 10px 0;
+}
+
+.rockerbox h5 {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.rockerbox h6 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.box-rockerbox .rockerbox a {
+  margin-bottom: 30px;
+}
+
+/* .slider-icon-dev {
+  content: '';
+  color: red;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border: 1px solid;
+  border-radius: 50%;
+} */
 
 /* FOOTER */
