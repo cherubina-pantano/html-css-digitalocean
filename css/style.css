@@ -368,4 +368,22 @@ a {
   border-radius: 50%;
 } */
 
+/* GET NOW */
+.get-now {
+  background: linear-gradient(#0047c5, #00209b);
+}
+
+.get-now h2 {
+  color: #fff;
+}
+
+.get-now .btn {
+  width: auto;
+  padding: 10px 24px;
+}
+
+.get-now .btn-default {
+  color: #006aff;
+}
+
 /* FOOTER */
